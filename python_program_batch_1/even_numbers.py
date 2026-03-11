@@ -1,4 +1,7 @@
-
 def even_number():
 
-    for i in range(1,1):
+    for number in range(1,101):
+        if number % 2 == 0:
+            print(number)
+
+even_number()
