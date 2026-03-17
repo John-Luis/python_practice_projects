@@ -7,3 +7,7 @@ while True:
         numbers.append(num)
     except ValueError:
         break
+
+if numbers:
+    numbers.sort(reverse=True)
+    print(f"Sorted (Highest to Lowest): {numbers}")
