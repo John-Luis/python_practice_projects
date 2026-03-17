@@ -18,9 +18,10 @@ def manual_trailing_strip(text):
     # replacing the spaces with underscore '_', only for visuals.
 
     visible_before = text.replace(" ", "_")
+    visible_after = text[:end_index].replace(" ", "_")
 
-
-    print(f"Before:{text}\nAfter:{text[:end_index]}")
+    print(f"Before: {visible_before}")
+    print(f"After:  {visible_after}")
 
 
 manual_trailing_strip(text)
