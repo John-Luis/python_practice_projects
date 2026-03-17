@@ -20,6 +20,7 @@ def manual_trailing_strip(text):
     visible_before = text.replace(" ", "_")
     visible_after = text[:end_index].replace(" ", "_")
 
+    print("underscore for visual difference")
     print(f"Before: {visible_before}")
     print(f"After:  {visible_after}")
 
