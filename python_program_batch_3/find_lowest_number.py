@@ -7,3 +7,6 @@ while True:
         numbers.append(num)
     except ValueError:
         break
+
+if numbers:
+    print(f"Lowest number: {min(numbers)}")
