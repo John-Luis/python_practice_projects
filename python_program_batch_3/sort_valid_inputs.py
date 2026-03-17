@@ -9,3 +9,8 @@ while True:
         numbers.append(num)
     except ValueError:
         break
+
+if numbers:
+    numbers.sort()
+    print("Numbers from lowest to highest:")
+    print(numbers)
