@@ -10,9 +10,11 @@ def manual_trailing_strip(text):
         if text[i] != " ":
             end_index = i + 1
             break
+    else:
+        # If the string was only spaces
+        end_index = 0
 
     print(f"Before:{text}\nAfter:{text[:end_index]}")
-
 
 
 manual_trailing_strip(text)
