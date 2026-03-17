@@ -14,6 +14,12 @@ def manual_trailing_strip(text):
         # If the string was only spaces
         end_index = 0
 
+    # A logic to show spaces as underscore for exhibition
+    # replacing the spaces with underscore '_', only for visuals.
+
+    visible_before = text.replace(" ", "_")
+
+
     print(f"Before:{text}\nAfter:{text[:end_index]}")
 
 
